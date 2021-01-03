@@ -73,7 +73,7 @@ Vcc
 Text HLabel 6200 3825 0    50   BiDi ~ 0
 SDA
 Text HLabel 6200 3925 0    50   BiDi ~ 0
-I2C
+SCK
 Text HLabel 4900 4400 0    50   BiDi ~ 0
 D2
 Text HLabel 4900 4500 0    50   BiDi ~ 0
