@@ -110,21 +110,21 @@ $EndSheet
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
 U 1 1 5FF24782
-P 1400 4225
-F 0 "U?" H 1728 4328 60  0000 L CNN
-F 1 "ATMEGA328P-AU" H 1728 4222 60  0000 L CNN
-F 2 "digikey-footprints:TQFP-32_7x7mm" H 1600 4425 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 1600 4525 60  0001 L CNN
-F 4 "ATMEGA328P-AU-ND" H 1600 4625 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATMEGA328P-AU" H 1600 4725 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 1600 4825 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 1600 4925 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 1600 5025 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 1600 5125 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 1600 5225 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 1600 5325 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1600 5425 60  0001 L CNN "Status"
-	1    1400 4225
+P 1775 4475
+F 0 "U?" H 2103 4578 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 2103 4472 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 1975 4675 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 1975 4775 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 1975 4875 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 1975 4975 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 1975 5075 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 1975 5175 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 1975 5275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 1975 5375 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 1975 5475 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 1975 5575 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1975 5675 60  0001 L CNN "Status"
+	1    1775 4475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,6 +136,28 @@ F 1 "DS1337_WKDv2" H 3350 5640 50  0000 C CNN
 F 2 "" H 3350 5150 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1337-DS1337C.pdf" H 3350 5150 50  0001 C CNN
 	1    3350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5FF30813
+P 875 3850
+F 0 "Y?" H 875 4118 50  0000 C CNN
+F 1 "Crystal" H 875 4027 50  0000 C CNN
+F 2 "" H 875 3850 50  0001 C CNN
+F 3 "~" H 875 3850 50  0001 C CNN
+	1    875  3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5FF313D6
+P 875 4525
+F 0 "Y?" H 875 4793 50  0000 C CNN
+F 1 "Crystal" H 875 4702 50  0000 C CNN
+F 2 "" H 875 4525 50  0001 C CNN
+F 3 "~" H 875 4525 50  0001 C CNN
+	1    875  4525
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
