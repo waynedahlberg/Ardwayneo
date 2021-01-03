@@ -122,6 +122,7 @@ F14 "D5" B R 5875 5950 50
 F15 "D6" B R 5875 6125 50 
 F16 "D7" B R 5875 6300 50 
 F17 "D8" B R 5875 6450 50 
+F18 "I2C" B R 5875 5275 50 
 $EndSheet
 $Comp
 L Ardwayneo_Library:DS1337_WKDv2 U?1
@@ -160,10 +161,8 @@ Text Label 3900 5075 2    50   ~ 0
 MISO
 Wire Wire Line
 	3900 5075 4125 5075
-Text Label 7250 3100 2    50   ~ 0
+Text Label 7450 3100 2    50   ~ 0
 MISO
-Wire Wire Line
-	7250 3100 7450 3100
 Text Label 3900 5300 2    50   ~ 0
 SCK
 Wire Wire Line
@@ -182,13 +181,11 @@ Wire Wire Line
 	3900 5200 4125 5200
 Text Label 3900 6625 2    50   ~ 0
 GND
-Text Label 7250 3000 2    50   ~ 0
+Text Label 7450 3000 2    50   ~ 0
 MOSI
-Wire Wire Line
-	7250 3000 7450 3000
-Text Label 7250 3200 2    50   ~ 0
+Text Label 7450 3200 2    50   ~ 0
 SCK
-Text Label 7250 3900 2    50   ~ 0
+Text Label 7450 3900 2    50   ~ 0
 RESET
 Wire Wire Line
 	7950 1700 7950 1600
@@ -288,42 +285,26 @@ Text Label 7250 2000 2    50   ~ 0
 D3
 Text Label 7250 2100 2    50   ~ 0
 D4
-Text Label 7250 2400 2    50   ~ 0
+Text Label 7450 2400 2    50   ~ 0
 D5
-Text Label 7250 2500 2    50   ~ 0
+Text Label 7450 2500 2    50   ~ 0
 D6
-Text Label 7250 2600 2    50   ~ 0
+Text Label 7450 2600 2    50   ~ 0
 D7
-Text Label 7250 2700 2    50   ~ 0
+Text Label 7450 2700 2    50   ~ 0
 D8
-Text Label 7250 3700 2    50   ~ 0
+Text Label 7450 3700 2    50   ~ 0
 SDA
-Text Label 7250 4000 2    50   ~ 0
+Text Label 7450 4000 2    50   ~ 0
 RX
-Text Label 7250 4100 2    50   ~ 0
+Text Label 7450 4100 2    50   ~ 0
 TX
-Text Label 7250 4200 2    50   ~ 0
+Text Label 7450 4200 2    50   ~ 0
 D2
 Wire Wire Line
 	7250 2000 7450 2000
 Wire Wire Line
 	7450 2100 7250 2100
-Wire Wire Line
-	7250 2400 7450 2400
-Wire Wire Line
-	7450 2500 7250 2500
-Wire Wire Line
-	7250 2600 7450 2600
-Wire Wire Line
-	7450 2700 7250 2700
-Wire Wire Line
-	7250 3700 7450 3700
-Wire Wire Line
-	7450 4000 7250 4000
-Wire Wire Line
-	7250 4100 7450 4100
-Wire Wire Line
-	7450 4200 7250 4200
 $Comp
 L Device:Crystal Y1
 U 1 1 5FF30813
@@ -423,10 +404,8 @@ Text Label 2850 3775 2    50   ~ 0
 Vcc
 Text Label 2300 3575 0    50   ~ 0
 SDA
-Text Label 7250 3800 2    50   ~ 0
+Text Label 7450 3800 2    50   ~ 0
 SCL
-Wire Wire Line
-	7250 3800 7450 3800
 Text Label 3650 3675 0    50   ~ 0
 SCL
 Text Label 2300 3675 0    50   ~ 0
@@ -441,14 +420,10 @@ Text Label 1500 3575 2    50   ~ 0
 ADDS1
 Text Label 1500 3675 2    50   ~ 0
 ADDS2
-Text Label 7250 3300 2    50   ~ 0
+Text Label 7450 3300 2    50   ~ 0
 ADDS1
-Text Label 7250 3400 2    50   ~ 0
+Text Label 7450 3400 2    50   ~ 0
 ADDS2
-Wire Wire Line
-	7250 3300 7450 3300
-Wire Wire Line
-	7250 3400 7450 3400
 $Comp
 L power:GNDPWR #PWR0104
 U 1 1 5FFE2D6D
@@ -488,7 +463,7 @@ Wire Wire Line
 	8875 1350 8875 1200
 Connection ~ 8875 1350
 Wire Wire Line
-	8875 1350 8050 1350
+	8875 1350 8475 1350
 Text Label 8875 1200 0    50   ~ 0
 Vcc
 Wire Wire Line
@@ -529,8 +504,6 @@ Wire Wire Line
 Connection ~ 4575 2475
 Wire Wire Line
 	4575 2475 4575 2675
-Wire Wire Line
-	6275 3200 7450 3200
 $Comp
 L power:GNDPWR #PWR0106
 U 1 1 6001A118
@@ -550,8 +523,6 @@ Wire Wire Line
 	5675 3675 5675 3800
 Wire Wire Line
 	6650 4050 6650 3900
-Wire Wire Line
-	6650 3900 7450 3900
 Text Label 6500 4550 2    50   ~ 0
 Vcc
 Wire Wire Line
@@ -596,4 +567,36 @@ SCK
 Text Label 2925 1925 0    50   ~ 0
 SDA
 NoConn ~ 2925 1625
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6004FDBD
+P 8475 1175
+F 0 "#FLG0101" H 8475 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 8475 1348 50  0000 C CNN
+F 2 "" H 8475 1175 50  0001 C CNN
+F 3 "~" H 8475 1175 50  0001 C CNN
+	1    8475 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 1175 8475 1350
+Connection ~ 8475 1350
+Wire Wire Line
+	8475 1350 8050 1350
+Wire Wire Line
+	6650 3900 7450 3900
+Wire Wire Line
+	6275 3200 7450 3200
+Text Label 3900 5825 2    50   ~ 0
+RX
+Wire Wire Line
+	3900 5825 4125 5825
+Text Label 3900 6000 2    50   ~ 0
+TX
+Wire Wire Line
+	3900 6000 4125 6000
+Text Label 6100 5275 0    50   ~ 0
+I2C
+Wire Wire Line
+	6100 5275 5875 5275
 $EndSCHEMATC
