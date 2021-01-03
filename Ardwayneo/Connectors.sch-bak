@@ -103,4 +103,12 @@ F 3 "~" H 6400 3725 50  0001 C CNN
 	1    6400 3725
 	1    0    0    -1  
 $EndComp
+Text Notes 4775 3450 0    50   ~ 0
+N6 - Serial Connector
+Text Notes 6150 3450 0    50   ~ 0
+N5 - I2C Connector
+Text Notes 4700 4250 0    50   ~ 0
+N7 - GPIO Connector
+Text Notes 6050 4625 0    50   ~ 0
+N8 - SPI Connector
 $EndSCHEMATC

@@ -30,7 +30,7 @@ U 1 1 5FF14682
 P 5150 2725
 F 0 "C1" V 5402 2725 50  0000 C CNN
 F 1 "22pF" V 5311 2725 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 5188 2575 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5188 2575 50  0001 C CNN
 F 3 "~" H 5150 2725 50  0001 C CNN
 	1    5150 2725
 	0    -1   -1   0   
@@ -41,7 +41,7 @@ U 1 1 5FF15CF4
 P 5150 2250
 F 0 "C2" V 4898 2250 50  0000 C CNN
 F 1 "22pF" V 4989 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 5188 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5188 2100 50  0001 C CNN
 F 3 "~" H 5150 2250 50  0001 C CNN
 	1    5150 2250
 	0    1    1    0   
@@ -52,7 +52,7 @@ U 1 1 5FF162B4
 P 9400 4075
 F 0 "C3" H 9518 4121 50  0000 L CNN
 F 1 "10µF" H 9518 4030 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 9438 3925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9438 3925 50  0001 C CNN
 F 3 "~" H 9400 4075 50  0001 C CNN
 	1    9400 4075
 	1    0    0    -1  
