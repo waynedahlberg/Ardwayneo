@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Ardwayneo_Library_DS1337_WKDv2
+#
+DEF Ardwayneo_Library_DS1337_WKDv2 U? 0 40 Y Y 1 F N
+F0 "U?" 0 750 50 H V C CNN
+F1 "Ardwayneo_Library_DS1337_WKDv2" 50 650 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 300 300 -300 0 1 0 f
+X X1 1 -400 150 100 R 50 50 1 1 I
+X X2 2 -400 0 100 R 50 50 1 1 I
+X INT_A 3 -400 -150 100 R 50 50 1 1 I I
+X GND 4 0 -400 100 U 50 50 1 1 O
+X SDA 5 400 -150 100 L 50 50 1 1 I
+X SCL 6 400 0 100 L 50 50 1 1 I
+X INT_B 7 400 150 100 L 50 50 1 1 O I
+X Vcc 8 0 400 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x04
 #
 DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
