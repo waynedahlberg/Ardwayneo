@@ -360,7 +360,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FF248E3)
-    (at 97.536 103.251 90)
+    (at 97.409 103.505 90)
     (descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x09 2.54mm single row")
     (path /5FF1D20B/5FF1DD56)
@@ -732,7 +732,7 @@
   )
 
   (module digikey-footprints:TQFP-32_7x7mm (layer F.Cu) (tedit 5D28AA5E) (tstamp 5FF249C3)
-    (at 97.028 95.758)
+    (at 98.044 95.504)
     (descr http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf)
     (path /5FF24782)
     (attr smd)
